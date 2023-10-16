@@ -1,37 +1,39 @@
+const kaued = document.querySelector;
+
 function tocasomclap(){
-    document.querySelector('#som_tecla_clap').play();
+    kaued('#som_tecla_clap').play();
 }
 function tocasompom () {
-    document.querySelector('#som_tecla_pom').play();
+    kaued('#som_tecla_pom').play();
 }
 function tocasomtim () {
-    document.querySelector('#som_tecla_tim').play();
+    kaued('#som_tecla_tim').play();
 }
 function tocasompuff () {
-    document.querySelector('#som_tecla_puff').play();
+    kaued('#som_tecla_puff').play();
 }
 
 function tocasomsplash () {
-    document.querySelector('#som_tecla_splash').play();
+    kaued('#som_tecla_splash').play();
 }
 function tocasomtoim () {
-    document.querySelector('#som_tecla_toim').play();
+    kaued('#som_tecla_toim').play();
 }
 function tocasompsh () {
-    document.querySelector('#som_tecla_psh').play();
+    kaued('#som_tecla_psh').play();
 }
 function tocasomtic () {
-    document.querySelector('#som_tecla_tic').play();
+    kaued('#som_tecla_tic').play();
 }
 function tocasomtom () {
-    document.querySelector('#som_tecla_tom').play();
+    kaued('#som_tecla_tom').play();
 }
-document.querySelector('.tecla_pom').onclick = tocasompom;
-document.querySelector('.tecla_clap').onclick = tocasomclap;
-document.querySelector('.tecla_tim').onclick = tocasomtim;
-document.querySelector('.tecla_puff').onclick = tocasompuff;
-document.querySelector('.tecla_splash').onclick = tocasomsplash;
-document.querySelector('.tecla_toim').onclick = tocasomtoim;
-document.querySelector('.tecla_psh').onclick = tocasompsh;
-document.querySelector('.tecla_tic').onclick = tocasomtic;
-document.querySelector('.tecla_tom').onclick = tocasomtom;
+kaued('.tecla_pom').onclick = tocasompom;
+kaued('.tecla_clap').onclick = tocasomclap;
+kaued('.tecla_tim').onclick = tocasomtim;
+kaued('.tecla_puff').onclick = tocasompuff;
+kaued('.tecla_splash').onclick = tocasomsplash;
+kaued('.tecla_toim').onclick = tocasomtoim;
+kaued('.tecla_psh').onclick = tocasompsh;
+kaued('.tecla_tic').onclick = tocasomtic;
+kaued('.tecla_tom').onclick = tocasomtom;
